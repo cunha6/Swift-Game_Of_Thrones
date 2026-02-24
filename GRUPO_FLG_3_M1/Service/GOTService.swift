@@ -4,7 +4,7 @@ import Foundation
 class GOTService {
     
     static let API_URL = "https://game-of-thrones1.p.rapidapi.com"
-    static let API_KEY = "cd0340e0a4msha3f7aaf2528600ep171ba8jsnff89d7bb2e04"
+    static let API_KEY = "apikey"
     
     static func fetch(completionHandler: @escaping (Result<Characters, Error>) -> Void){
         
